@@ -1,0 +1,81 @@
+<!--
+  DOCTYPE me indica que es esto es el inicio de un documento HTML5
+-->
+<!DOCTYPE html>
+<!-- lang se utiliza para identificar el idioma del contenido del
+   texto de la web. Esta información ayuda a los motores de busqueda
+a obtener resultados específicos del idioma.
+en = ingles
+es = español -->
+<html lang="es">
+<head>
+   <!-- Las etiquetas meta -->
+   <!-- charset establece y permite el juego de caractéres especiales
+   Ejemplo acentos y ñ  -->
+   <meta charset="UTF-8">
+   <meta name="description" content="Este es mi blog personal de tecnología">
+   <meta name="keywords" content="blog, html5, geeks, apuntes">
+   <meta name="author" content="Said Jair Guerra Escudero">
+   <meta name="copyright" content="Bill Gates">
+   <meta name="robots" content="noindex">
+   <!--
+      Este tag prohibe al buscador transferir contenido de una página html
+      a su base de datos
+   -->
+   <meta http-equiv="cache-control" content="no-cache">
+   <!--
+      Para asegurar la fluidez del funcionamiento de internet, las webs
+      suelen guardar en servidor proxy intermedios o el cache del navegador
+      para ser consultado en el futuro.
+    -->
+    <!--
+      https://www.metatags.org/seo-tips/why-use-meta-tags/metatags-generator/
+    -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mi blog personal en Html5</title>
+</head>
+<body bgcolor="#EDEDED">
+   <!--Encabezados para la página disponibles son: h1,h2,h3,h4,h5,h6 de Mayor a menor en tamaño -->
+   <h1>Mi blog personal sgues</h1>
+   <a href="#seccion_1">¿Por qué aprender inglés para programar?</a> 🐵 <a href="#">Consejos para mejorar tu ingles para programar</a>
+   <p>
+      La etiqueta <strong>parrafo p</strong>, trata el texto como una <s>unidad</s>
+      para aplicar formato o estilo según sea el <em>caso</em>.
+   </p>
+   <!-- alt + z habilita el ajuste de texto en el editor, y para deshacer el ajuste de linea o texto se presiona igualmente la combinación alt + z -->
+   <!--src es una abrevación de source(fuente) local o URL-->
+   <center>
+      <img src="images/monkey.jpg" alt="Geek Monkey" width="15%" height="15%">
+      <img src="https://icons.iconarchive.com/icons/icons8/windows-8/72/Astrology-Year-Of-Monkey-icon.png" alt="otro monkey más">
+   </center>
+   <br><br>
+
+   <a href="https://www.google.com.mx/"target="_blank" rel="noopener noreferrer">Ir google para buscar Monkeys</a>
+   <!-- 8
+      Agregar el atributo rel a la etiqueta, sirve para específicar la relación entre el sitio web y la página web destino. El propósito del valor noopener es evitar que sitios web externos maliociosos accedan al sitio web donde se encuentra el enlace. Esta diseñado específicamente para combatir ataques phising maliciosos llamados también tabnabbing invertido.
+   -->
+   <!-- Dead Link o links muertes, tiene la funcionalidad de bloquear la navegación o direccionamiento a otro sitio -->
+   <a href="#"><img src="images/zombie.png" width="60px" height="80px"></a>
+
+   <h3>Lista de proyecto que todo Developer debe hacer</h3>
+   <ul>
+      <li>Contruir tu propia calculadora</li>
+      <li>Contruir tu blog personal</li>
+      <li>Crear tu To-Do List con JavaScript</li>
+      <li>Hacer tu aplicación de conversiones</li>
+   </ul>
+
+   <ol>
+      <li>Construir tu primer login usando HTML5,Css y Javacript</li>
+      <li>Diseñar tu Javascript Slider</li>
+      <li>Tu primer video en youtube</li>
+      <li>Hacer tu primer Web Scraper con Python</li>
+   </ol>
+
+   <h2>¿Por qué aprender Inglés para programación?</h2>
+   <p id="seccion_1">
+      La primer ventaja es destacar frente a la competencia. Muchas lenguajes, librerias, frameworks tiene su documentación en Inglés. E igualmente sus recursos, ejemplos y ayudas en foros también están en Inglés. Saber Ingles te permite entender esta información de manera sencilla y clara. Así como municarla a otras personas.
+   </p>
+</body>
+</html>
